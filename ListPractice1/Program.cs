@@ -34,6 +34,8 @@ namespace ListPractice1
             foreach (AutoMobile item in carList)
             {
                 Console.WriteLine($"Our Id is {item.AutoID}, made by {item.Make}, in the year {item.Year}, Model type of {item.Model} with the color is {item.Color}");
+
+                item.DisplayItems
             }
 
             Console.ReadLine();

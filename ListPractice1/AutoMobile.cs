@@ -25,6 +25,11 @@ namespace ListPractice1
             get { return trimLevel; }
             set { trimLevel = value; }
         }
+        public void DisplayItems()
+        {
+            Console.WriteLine($"The Id is {AutoID}, the model is {Model} and the make is a {Make}");
+
+        }
 
 
 
